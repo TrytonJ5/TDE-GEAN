@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VK VARIEDADES</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <header>
+        <img src="imagens/vk_variedades.png" alt="logo_VK_variedades">
+        <h1>VK VARIEDADES</h1>
+    </header>
+
+    <section class="categoria">
+
+        <a href="" target="_blank">
+            <div class="categoria-item">
+                <img src="imagens/slt-bolsa.png">
+                <span>Moda</span>
+            </div>
+        </a>
+
+        <a href="" target="_blank">
+            <div class="categoria-item">
+                <img src="imagens/slt-celular.png">
+                <span>Tecnologia</span>
+            </div>
+        </a>
+
+        <a href="" target="_blank">
+            <div class="categoria-item">
+                <img src="imagens/slt-estrela.png">
+                <span>Destaque</span>
+            </div>
+        </a>
+
+        <a href="" target="_blank">
+            <div class="categoria-item">
+                <img src="imagens/slt-relogio.png">
+                <span>Acessorios</span>
+            </div>
+        </a>
+
+        <a href="" target="_blank">
+            <div class="categoria-item">
+                <img src="imagens/slt-taleres.png">
+                <span>Cozinha</span>
+            </div>
+        </a>
+    </section>
+    <!-- fim da categoria -->
+
+    <h1 class="prod">PRODUTOS</h1>
+
+    <di class="container-promocao">
+        <div class="pt1">
+            <img>
+            <span>OFERTA RELÂMPAGO</span>
+        </div>
+
+        <div class="pt2">
+            <p>voce nao pode perder!</p>
+
+            <div class="countdown">
+                <span class="text" id="horas">00</span>
+            </div>
+            <p>:</p>
+            <div class="countdown">
+                <span class="text" id="minutos">00</span>
+            </div>
+            <p>:</p>
+            <div class="countdown">
+                <span class="text" id="segundos">00</span>
+            </div>
+        </div>
+    </di>
+    
+    <section class="produtos">
+        <div class="produtos-item">
+            <img src="imagens/BUCHA_PT_1.jpg" title="">
+            <span class="produtos-nome">Kit bucha, 12 unidades</span>
+            <span>R$: 11,59</span>
+            <a href="https://shopee.com.br/KIT-12-Bucha-Esponja-De-Lavar-Lou%C3%A7a-i.274021860.21999179445" target="_blank">Compre aqui</a>
+        </div>
+
+        <div class="produtos-item">
+            <img src="imagens/LOUSA_MAGICA.jpg" title="">
+            <span class="produtos-nome">Tela de Desenho</span>
+            <span>R$: 19,99</span>
+            <a href="https://shopee.com.br/vk_variedadess" target="_blank">Compre aqui</a>
+        </div>
+
+        <div class="produtos-item">
+            <img src="imagens/tv_box.jpg" title="">
+            <span class="produtos-nome">Tv boxe, original</span>
+            <span>R$: 150,00</span>
+            <a href="https://shopee.com.br/vk_variedadess" target="_blank">Compre aqui</a>
+        </div>
+
+        <div class="produtos-item">
+            <img src="imagens/sabonete.jpeg" title="">
+            <span class="produtos-nome">Kit Sabonete de arueira</span>
+            <span>R$: 19,99</span>
+            <a href="https://shopee.com.br/Sabonete-aroeira-Aromed-pacote-com-12-ou-6-unidades.-i.274021860.21897463912" target="_blank">Compre aqui</a>
+        </div>
+
+        <div class="produtos-item">
+            <img src="imagens/palitos.jpeg" title="">
+            <span class="produtos-nome">kit incenso,90 palitos</span>
+            <span>R$: 22,99</span>
+            <a href="https://shopee.com.br/KIT-90-Incenso-mata-mosquitos-perfume-original-3-CAIXAS-COM-30-CADA-i.274021860.22192820436?sp_atk=1dbbcdee-ca01-4fcf-8ed0-5b8cad0a1983&xptdk=1dbbcdee-ca01-4fcf-8ed0-5b8cad0a1983" target="_blank">compre aqui</a>
+        </div>
+
+        <div class="produtos-item">
+            <img src="imagens/esfregao.jpeg">
+            <span class="produtos-nome">Esfregao de carro</span>
+            <span>R$: 9,99</span>
+            <a href="https://shopee.com.br/Luva-de-microfibra-multiuso-Luva-para-limpar-carro-Limpeza-Carro-Moto-e-Geral.-i.274021860.21197453495?sp_atk=e33403c7-51e1-4b6a-b439-69ab75626c00&xptdk=e33403c7-51e1-4b6a-b439-69ab75626c00" target="_blank">compre aqui</a>
+        </div>
+    </section>
+    <!-- fim dos produtos -->
+
+    <h1 class="prod">CONTATO</h1>
+
+    <section class="contato_container">
+        <form class="contato">
+            <div>
+                <p>Nome:</p>
+                <input type="text" id="contatoNome">
+            </div>
+
+            <div>
+                <p>Assunto:</p>
+                <input type="text" id="contatoAssunto">
+            </div>
+
+            <div>
+                <p>Responder:</p>
+                <input type="text" id="contatoResponder">
+            </div>
+            <div>
+                <p>Mensagem:</p>
+                <textarea id="mensagem"></textarea>
+            </div>
+            <input type="button" value="ENVIAR" onclick="enviarEmail();">
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-geral">
+            <h2>Ajuda: </h2>
+            <h4>Produto</h4>
+            <h4>Suporte</h4>
+            <h4>Duvidas em Geral</h4>
+        </div>
+        
+        <div class="footer-geral">
+            <img src="imagens/vk_variedades.png" alt="logo_VK_variedades">
+        </div>
+
+        <div class="footer-itens footer-geral">
+            <h2>PAGAMENTO:</h2>
+            <div class="footer-imagem">    
+                <img src="imagens/PIX.png" alt="imagem pix">
+                <img src="imagens/master-card.png" alt="imagem master">
+                <img src="imagens/visa-logo.png" alt="imagem visa">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+<script src="script.js"></script>
